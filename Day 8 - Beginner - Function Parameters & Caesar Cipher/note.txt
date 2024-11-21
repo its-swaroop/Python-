@@ -1,0 +1,25 @@
+CHAP1:
+Caesar cipher
+-function with input
+-argument and parameter
+
+Code:
+#function
+def great():
+    print("Hello there")
+    print("I am Swaroop")
+    print("Who are you?")    
+great()
+
+Code2:
+#function with input: something = 123 ie parameter = argument
+def greet_with_name(name):
+  print("Hello Dear, What is your name?")
+  print(f"Nice to meet you, {name}.")
+greet_with_name("Swaroop")
+
+Code3:
+def greet_with(name, location):
+  print(f"Hello , {name}.")
+  print(f"What is it like in {location}.")
+greet_with("Swaroop", "India")
